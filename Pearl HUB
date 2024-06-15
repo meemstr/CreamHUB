@@ -36,37 +36,6 @@ local Button = UncTab:CreateButton({
    end,
 })
 
-local ScriptTab = Window:CreateTab("Script HUB", nil) -- Title, Image
-local Section = ScriptTab:CreateSection("SCRIPT HUBS")
-
-local Button = ScriptTab:CreateButton({
-   Name = "Script HUB V2",
-   Callback = function()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/scripthubekitten/SCRIPTHUBV2/main/SCRIPTHUBV2", true))()
-   end,
-})
-
-local Button = ScriptTab:CreateButton({
-   Name = "Key:QP",
-   Callback = function()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/QP-Community/Roblox-Exploit/main/Loader.lua"))()
-   end,
-})
-
-local Button = ScriptTab:CreateButton({
-   Name = "Key:KuSoMaNkOISBESTSCRIPT",
-   Callback = function()
-            loadstring(game:HttpGet("https://shz.al/~solaraisniga"))()
-   end,
-})
-
-local Button = ScriptTab:CreateButton({
-   Name = "Key:Well.Done",
-   Callback = function()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/HG-Chenxin/HG-HUB/main/Universal-Script-Solara.lua"))()
-   end,
-})
-
 local FpsTab = Window:CreateTab("Fps Boost Script", nil) -- Title
 local Section = FpsTab:CreateSection("Makes the game looks bad but Its fps right")
 
